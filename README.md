@@ -9,8 +9,6 @@ Include [Bootstrap](https://getbootstrap.com)'s source Sass and compiled JavaScr
 ## How to use
 
 ```sh
-git clone https://github.com/twbs/examples.git
-cd examples/sass-js/
 npm install
 npm start
 ```
