@@ -1,75 +1,943 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Bootstrap Sass &amp; JS</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Not Found - Deliver X - Webflow Ecommerce website template</title>
   </head>
   <body>
-    <div class="container py-4 px-3 mx-auto">
-
-      <header class="d-flex justify-content-between align-items-md-center pb-3 mb-5 border-bottom">
-        <h1 class="h4">
-          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bootstrap-fill d-inline-block me-2" viewBox="0 0 16 16">
-              <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
-              <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
-            </svg>
-            <span>Sass &amp; JS</span>
-          </a>
-        </h1>
-        <a href="https://github.com/twbs/examples/tree/main/sass-js/" target="_blank" rel="noopener">View on GitHub</a>
-      </header>
-
-      <h1>Get started with Bootstrap</h1>
-      <div class="col-lg-8 px-0">
-        <p class="fs-4">You've successfully loaded up a Bootstrap example! It's loaded up with <a href="https://getbootstrap.com/">Bootstrap 5</a> and tooling for compiling our Sass and JavaScript to your needs.</p>
-        <p>If this button appears blue and the link appears purple, you've done it!</p>
-      </div>
-
-      <button type="button" class="btn btn-primary me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Toggle offcanvas</button>
-      <a id="popoverButton" class="text-success" href="#" role="button" data-bs-toggle="popover" title="Custom popover" data-bs-content="This is a Bootstrap popover.">Example popover</a>
-
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    <div class="page-wrapper">
+      <div
+        id="30e72098-383f-aa99-a958-3300d8704335"
+        class="header-wrapper w-nav"
+      >
+        <div id="b97b71c1-00cf-46ef-af23-9047811c7286" class="header-content">
+          <div class="container-default header w-container">
+            <div class="header-content-wrapper">
+              <div class="header-left-side">
+                <a href="#" class="header-logo-link w-nav-brand"
+                  ><img
+                    src="https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/6216c3e8db8e185b2e172d35_logo-deliver-template.svg"
+                    alt="Deliver X Webflow Template - Logo"
+                    class="header-logo"
+                /></a>
+              </div>
+              <div class="header-right-side">
+                <nav class="header-nav-menu-wrapper w-nav-menu">
+                  <ul class="header-nav-menu-list">
+                    <li class="header-nav-list-item header">
+                      <a
+                        href="#"
+                        class="header-nav-link w-nav-link"
+                        style="max-width: 1270px"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="header-nav-list-item header">
+                      <a
+                        href="#"
+                        class="header-nav-link w-nav-link"
+                        style="max-width: 1270px"
+                        >About</a
+                      >
+                    </li>
+                    <li class="header-nav-list-item header">
+                      <a
+                        href="#"
+                        class="header-nav-link w-nav-link"
+                        style="max-width: 1270px"
+                        >Pricing</a
+                      >
+                    </li>
+                    <li class="header-nav-list-item header">
+                      <div class="dropdown-wrapper w-dropdown">
+                        <div
+                          class="header-nav-link dropdown w-dropdown-toggle"
+                          id="42926702-3c87-4671-84f3-6609078da82d"
+                        >
+                          <div>Pages</div>
+                          <div class="line-rounded-icon dropdown-arrow"></div>
+                        </div>
+                        <nav
+                          class="dropdown-column-wrapper w-dropdown-list"
+                          id="0e0088bc-9565-4350-8dda-b48aa4d3fe73"
+                        >
+                          <div class="card dropdown">
+                            <div class="w-layout-grid grid-2-columns dropdown">
+                              <div class="inner-container _230px">
+                                <div class="mg-bottom-40px">
+                                  <div class="text-300 bold color-neutral-800">
+                                    Menu
+                                  </div>
+                                </div>
+                                <div class="nav-menu-list-main-wrapper">
+                                  <ul role="list" class="nav-menu-list-wrapper">
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Home</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >About</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Contact</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Blog</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Blog posts</a
+                                      >
+                                    </li>
+                                  </ul>
+                                  <ul
+                                    role="list"
+                                    class="nav-menu-list-wrapper last"
+                                  >
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Plans</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Plan single</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Register</a
+                                      >
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="inner-container _230px">
+                                <div class="mg-bottom-40px">
+                                  <div class="text-300 bold color-neutral-800">
+                                    Utility pages
+                                  </div>
+                                </div>
+                                <div class="nav-menu-list-main-wrapper">
+                                  <ul
+                                    role="list"
+                                    class="nav-menu-list-wrapper last"
+                                  >
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Start here</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Styleguide</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Password protected</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >404 Not found</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Licenses</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link"
+                                        tabindex="0"
+                                        >Changelog</a
+                                      >
+                                    </li>
+                                    <li class="nav-menu-list-item">
+                                      <a
+                                        href="#"
+                                        class="text-200 menu-nav-link special"
+                                        tabindex="0"
+                                        >Browse More Templates</a
+                                      >
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="header-nav-list-item show-in-tablet-menu-header">
+                      <a href="#" class="btn-primary width-100 w-button"
+                        >Get started</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+                <div class="w-commerce-commercecartwrapper cart">
+                  <a
+                    href="#"
+                    id="599de042-68a7-db31-d61e-8274a547981c"
+                    class="w-commerce-commercecartopenlink header-nav-link cart-btn w-inline-block"
+                    role="button"
+                    ><div class="w-inline-block">Cart(</div>
+                    <div
+                      class="w-commerce-commercecartopenlinkcount cart-quantity"
+                    >
+                      0
+                    </div>
+                    <div>)</div></a
+                  >
+                  <div
+                    id="6a8848ef-4a81-4d02-8c3c-b259bf44c0ce"
+                    style="display: none"
+                    class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-rightSidebar cart-wrapper"
+                  >
+                    <div
+                      id="a7739a9c-0e9e-4ebd-b2e1-a925243fe0ad"
+                      class="w-commerce-commercecartcontainer cart-container-2"
+                    >
+                      <div class="w-commerce-commercecartheader cart-header">
+                        <h4 class="w-commerce-commercecartheading">
+                          Your Cart
+                        </h4>
+                        <a
+                          href="#"
+                          id="30cc7fd5-652b-4246-96d5-a38c7637371e"
+                          class="w-commerce-commercecartcloselink cart-close-button w-inline-block"
+                          ><div class="line-rounded-icon"></div></a
+                        >
+                      </div>
+                      <div
+                        class="w-commerce-commercecartformwrapper cart-form-wrapper"
+                      >
+                        <form
+                          data-node-type="commerce-cart-form"
+                          style="display: none"
+                          class="w-commerce-commercecartform"
+                        >
+                          <script
+                            type="text/x-wf-template"
+                            id="wf-template-599de042-68a7-db31-d61e-8274a547982b"
+                          ></script>
+                          <div
+                            class="w-commerce-commercecartlist"
+                            data-wf-collection="database.commerceOrder.userItems"
+                            data-wf-template-id="wf-template-599de042-68a7-db31-d61e-8274a547982b"
+                          ></div>
+                          <div
+                            class="w-commerce-commercecartfooter cart-footer"
+                          >
+                            <div
+                              aria-live=""
+                              aria-atomic="false"
+                              class="w-commerce-commercecartlineitem flex-horizontal children-wrap"
+                            >
+                              <div>Subtotal</div>
+                              <div
+                                class="w-commerce-commercecartordervalue cart-subtotal-number"
+                              ></div>
+                            </div>
+                            <div>
+                              <div
+                                data-node-type="commerce-cart-quick-checkout-actions"
+                                style="display: none"
+                              >
+                                <a
+                                  role="button"
+                                  tabindex="0"
+                                  aria-haspopup="dialog"
+                                  aria-label="Apple Pay"
+                                  data-node-type="commerce-cart-apple-pay-button"
+                                  style="
+                                    background-image: -webkit-named-image(
+                                      apple-pay-logo-white
+                                    );
+                                    background-size: 100% 50%;
+                                    background-position: 50% 50%;
+                                    background-repeat: no-repeat;
+                                  "
+                                  class="w-commerce-commercecartapplepaybutton pay-btn"
+                                  ><div></div></a
+                                ><a
+                                  role="button"
+                                  tabindex="0"
+                                  aria-haspopup="dialog"
+                                  data-node-type="commerce-cart-quick-checkout-button"
+                                  style="display: none"
+                                  class="w-commerce-commercecartquickcheckoutbutton pay-btn"
+                                  ><svg
+                                    class="w-commerce-commercequickcheckoutgoogleicon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 16 16"
+                                  >
+                                    <defs>
+                                      <polygon
+                                        id="google-mark-a"
+                                        points="0 .329 3.494 .329 3.494 7.649 0 7.649"
+                                      ></polygon>
+                                      <polygon
+                                        id="google-mark-c"
+                                        points=".894 0 13.169 0 13.169 6.443 .894 6.443"
+                                      ></polygon>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                      <path
+                                        fill="#4285F4"
+                                        d="M10.5967,12.0469 L10.5967,14.0649 L13.1167,14.0649 C14.6047,12.6759 15.4577,10.6209 15.4577,8.1779 C15.4577,7.6339 15.4137,7.0889 15.3257,6.5559 L7.8887,6.5559 L7.8887,9.6329 L12.1507,9.6329 C11.9767,10.6119 11.4147,11.4899 10.5967,12.0469"
+                                      ></path>
+                                      <path
+                                        fill="#34A853"
+                                        d="M7.8887,16 C10.0137,16 11.8107,15.289 13.1147,14.067 C13.1147,14.066 13.1157,14.065 13.1167,14.064 L10.5967,12.047 C10.5877,12.053 10.5807,12.061 10.5727,12.067 C9.8607,12.556 8.9507,12.833 7.8887,12.833 C5.8577,12.833 4.1387,11.457 3.4937,9.605 L0.8747,9.605 L0.8747,11.648 C2.2197,14.319 4.9287,16 7.8887,16"
+                                      ></path>
+                                      <g transform="translate(0 4)">
+                                        <mask id="google-mark-b" fill="#fff">
+                                          <use
+                                            xlink:href="#google-mark-a"
+                                          ></use>
+                                        </mask>
+                                        <path
+                                          fill="#FBBC04"
+                                          d="M3.4639,5.5337 C3.1369,4.5477 3.1359,3.4727 3.4609,2.4757 L3.4639,2.4777 C3.4679,2.4657 3.4749,2.4547 3.4789,2.4427 L3.4939,0.3287 L0.8939,0.3287 C0.8799,0.3577 0.8599,0.3827 0.8459,0.4117 C-0.2821,2.6667 -0.2821,5.3337 0.8459,7.5887 L0.8459,7.5997 C0.8549,7.6167 0.8659,7.6317 0.8749,7.6487 L3.4939,5.6057 C3.4849,5.5807 3.4729,5.5587 3.4639,5.5337"
+                                          mask="url(#google-mark-b)"
+                                        ></path>
+                                      </g>
+                                      <mask id="google-mark-d" fill="#fff">
+                                        <use xlink:href="#google-mark-c"></use>
+                                      </mask>
+                                      <path
+                                        fill="#EA4335"
+                                        d="M0.894,4.3291 L3.478,6.4431 C4.113,4.5611 5.843,3.1671 7.889,3.1671 C9.018,3.1451 10.102,3.5781 10.912,4.3671 L13.169,2.0781 C11.733,0.7231 9.85,-0.0219 7.889,0.0001 C4.941,0.0001 2.245,1.6791 0.894,4.3291"
+                                        mask="url(#google-mark-d)"
+                                      ></path>
+                                    </g></svg
+                                  ><svg
+                                    class="w-commerce-commercequickcheckoutmicrosofticon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 16 16"
+                                  >
+                                    <g fill="none" fill-rule="evenodd">
+                                      <polygon
+                                        fill="#F05022"
+                                        points="7 7 1 7 1 1 7 1"
+                                      ></polygon>
+                                      <polygon
+                                        fill="#7DB902"
+                                        points="15 7 9 7 9 1 15 1"
+                                      ></polygon>
+                                      <polygon
+                                        fill="#00A4EE"
+                                        points="7 15 1 15 1 9 7 9"
+                                      ></polygon>
+                                      <polygon
+                                        fill="#FFB700"
+                                        points="15 15 9 15 9 9 15 9"
+                                      ></polygon>
+                                    </g>
+                                  </svg>
+                                  <div>Pay with browser.</div></a
+                                >
+                              </div>
+                              <a
+                                href="#"
+                                value="Continue to Checkout"
+                                data-node-type="cart-checkout-button"
+                                class="w-commerce-commercecartcheckoutbutton btn-primary"
+                                data-loading-text="Hang Tight..."
+                                >Continue to Checkout</a
+                              >
+                            </div>
+                          </div>
+                        </form>
+                        <div
+                          class="w-commerce-commercecartemptystate empty-state cart-empty"
+                        >
+                          <div>No items found.</div>
+                          <a href="#" class="btn-primary mg-top-40px w-button"
+                            >Go to pricing</a
+                          >
+                        </div>
+                        <div
+                          aria-live=""
+                          style="display: none"
+                          data-node-type="commerce-cart-error"
+                          class="w-commerce-commercecarterrorstate error-message cart-error"
+                        >
+                          <div
+                            class="w-cart-error-msg"
+                            data-w-cart-quantity-error="Product is not available in this quantity."
+                            data-w-cart-general-error="Something went wrong when adding this item to the cart."
+                            data-w-cart-checkout-error="Checkout is disabled on this site."
+                            data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue."
+                            data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates."
+                          >
+                            Product is not available in this quantity.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="buttons-row header">
+                  <div class="btn-row-left header">
+                    <a href="#" class="btn-secondary small w-button"
+                      >Download app</a
+                    >
+                  </div>
+                  <div class="btn-row-right">
+                    <a href="#" class="btn-primary small w-button">Register</a>
+                  </div>
+                </div>
+                <div
+                  id="hamburger-menu-button"
+                  class="hamburger-menu-wrapper w-nav-button"
+                >
+                  <div class="hamburger-menu-bar top"></div>
+                  <div class="hamburger-menu-bar bottom"></div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="dropdown mt-3">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-              Dropdown button
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </div>
+        <div class="w-nav-overlay" id="03c55c73-55d3-4eaa-be23-38bfbbd3ecc3">
+          <nav
+            id="546e4b38-b2c8-4851-89b8-d64ab874aa30"
+            class="header-nav-menu-wrapper w-nav-menu"
+          >
+            <ul role="list" class="header-nav-menu-list">
+              <li class="header-nav-list-item header">
+                <a
+                  href="#"
+                  class="header-nav-link w-nav-link"
+                  style="max-width: 1270px"
+                  >Home</a
+                >
+              </li>
+              <li class="header-nav-list-item header">
+                <a
+                  href="#"
+                  class="header-nav-link w-nav-link"
+                  style="max-width: 1270px"
+                  >About</a
+                >
+              </li>
+              <li class="header-nav-list-item header">
+                <a
+                  href="#"
+                  class="header-nav-link w-nav-link"
+                  style="max-width: 1270px"
+                  >Pricing</a
+                >
+              </li>
+              <li class="header-nav-list-item header">
+                <div class="dropdown-wrapper w-dropdown">
+                  <div
+                    class="header-nav-link dropdown w-dropdown-toggle"
+                    id="8a2262df-9b24-41ad-b774-5422d923e3e5"
+                  >
+                    <div>Pages</div>
+                    <div class="line-rounded-icon dropdown-arrow"></div>
+                  </div>
+                  <nav
+                    class="dropdown-column-wrapper w-dropdown-list"
+                    id="57ffcd7a-12d7-48a5-84ca-80e93c01c2c4"
+                  >
+                    <div class="card dropdown">
+                      <div class="w-layout-grid grid-2-columns dropdown">
+                        <div class="inner-container _230px">
+                          <div class="mg-bottom-40px">
+                            <div class="text-300 bold color-neutral-800">
+                              Menu
+                            </div>
+                          </div>
+                          <div class="nav-menu-list-main-wrapper">
+                            <ul role="list" class="nav-menu-list-wrapper">
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Home</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >About</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Contact</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Blog</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Blog posts</a
+                                >
+                              </li>
+                            </ul>
+                            <ul role="list" class="nav-menu-list-wrapper last">
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Plans</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Plan single</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Register</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="inner-container _230px">
+                          <div class="mg-bottom-40px">
+                            <div class="text-300 bold color-neutral-800">
+                              Utility pages
+                            </div>
+                          </div>
+                          <div class="nav-menu-list-main-wrapper">
+                            <ul role="list" class="nav-menu-list-wrapper last">
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Start here</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Styleguide</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Password protected</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >404 Not found</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Licenses</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link"
+                                  tabindex="0"
+                                  >Changelog</a
+                                >
+                              </li>
+                              <li class="nav-menu-list-item">
+                                <a
+                                  href="#"
+                                  class="text-200 menu-nav-link special"
+                                  tabindex="0"
+                                  >Browse More Templates</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </li>
+              <li class="header-nav-list-item show-in-tablet-menu-header">
+                <a href="#" class="btn-primary width-100 w-button"
+                  >Get started</a
+                >
+              </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
-
-      <hr class="col-1 my-5 mx-0">
-
-      <h2>Guides</h2>
-      <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-      <ul class="icon-list">
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap quick start guide</a></li>
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/webpack/">Bootstrap Webpack guide</a></li>
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/parcel/">Bootstrap Parcel guide</a></li>
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/vite/">Bootstrap Vite guide</a></li>
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/contribute/">Contributing to Bootstrap</a></li>
-      </ul>
-
-      <hr class="mt-5 mb-4">
-
-      <p class="text-muted">Created and open sourced by the Bootstrap team. Licensed MIT.</p>
+      <div
+        id="fa02e1c1-b288-3585-b90d-cb0aa7ae796e"
+        class="section hero not-found"
+      >
+        <div
+          id="20233750-f081-4af3-9244-9ae7f7a80319"
+          class="container-default width-100 w-container"
+        >
+          <div class="w-layout-grid grid-2-columns hero-full-width-right">
+            <div class="not-found-content w-form">
+              <div class="_404-not-found">404</div>
+              <div
+                id="w-node-_16d1d913-ba39-7c7f-df36-5627fcbc5e33-7ebb25d0"
+                class="position-relative z-index-1"
+              >
+                <h1>Page not found</h1>
+                <p class="mg-bottom-48px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore
+                  <span class="text-no-wrap">magna aliqua.</span>
+                </p>
+                <div class="buttons-row center-tablet">
+                  <a href="#" class="btn-primary w-button">Go back home</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="7607f238-492c-0e60-1d1c-b87f99af3e9f"
+          style="opacity: 1"
+          class="hero-full-with-right not-found"
+        >
+          <img
+            src="https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template.jpeg"
+            loading="eager"
+            sizes="(max-width: 991px) 100vw, 45vw"
+            srcset="
+              https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template-p-500.jpeg   500w,
+              https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template-p-800.jpeg   800w,
+              https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template-p-1080.jpeg 1080w,
+              https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template.jpeg        1262w
+            "
+            alt="Not Found - Deliver X Webflow Template"
+            class="_w-h-100 fit-cover"
+            style="
+              will-change: transform;
+              transform: translate3d(0px, 2.464px, 0px) scale3d(1.1, 1.1, 1)
+                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+              transform-style: preserve-3d;
+            "
+          />
+        </div>
+      </div>
+      <footer class="footer-wrapper">
+        <div class="container-default w-container">
+          <div id="67b7e240-216f-4c4c-b5d3-ef5698c205a1" class="footer-top">
+            <div class="w-layout-grid grid-footer-2-column---logo-and-buttons">
+              <div
+                id="w-node-_9566e1e2-4862-c17d-08fa-fb50b8a31b48-b8a31b43"
+                class="inner-container _450px"
+              >
+                <a href="#" class="footer-logo-wrapper w-inline-block"
+                  ><img
+                    src="https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/6216c3e8db8e185b2e172d35_logo-deliver-template.svg"
+                    alt="Deliver X Webflow Template - Logo"
+                    class="footer-logo"
+                /></a>
+                <p class="mg-bottom-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+                  eiusmod tempor
+                  <span class="text-no-wrap">incididunt ut.</span>
+                </p>
+              </div>
+              <div
+                id="w-node-_9566e1e2-4862-c17d-08fa-fb50b8a31b4f-b8a31b43"
+                class="buttons-row download-app"
+              >
+                <div class="btn-row-left download-app">
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn-primary download-app w-inline-block"
+                    ><div class="custom-icon-font button-left apple"></div>
+                    <div>Download for iOS</div></a
+                  >
+                </div>
+                <div class="btn-row-right">
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn-primary download-app w-inline-block"
+                    ><div class="custom-icon-font button-left android"></div>
+                    <div>Download for Android</div></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="9566e1e2-4862-c17d-08fa-fb50b8a31b5c" class="footer-middle">
+            <div class="w-layout-grid grid-3-columns footer-nav-menu">
+              <div class="inner-container _230px">
+                <div class="mg-bottom-40px">
+                  <div class="text-300 bold color-neutral-800">Menu</div>
+                </div>
+                <div class="nav-menu-list-main-wrapper">
+                  <ul role="list" class="nav-menu-list-wrapper">
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Home</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">About</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Contact</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Blog</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Blog posts</a>
+                    </li>
+                  </ul>
+                  <ul role="list" class="nav-menu-list-wrapper last">
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Plans</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Plan single</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Register</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="inner-container _230px">
+                <div class="mg-bottom-40px">
+                  <div class="text-300 bold color-neutral-800">
+                    Utility pages
+                  </div>
+                </div>
+                <div class="nav-menu-list-main-wrapper">
+                  <ul role="list" class="nav-menu-list-wrapper last">
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Start here</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Styleguide</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link"
+                        >Password protected</a
+                      >
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link"
+                        >404 Not found</a
+                      >
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Licenses</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Changelog</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link special"
+                        >Browse More Templates</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                id="w-node-_9566e1e2-4862-c17d-08fa-fb50b8a31b96-b8a31b43"
+                class="inner-container _502px"
+              >
+                <div class="mg-bottom-40px">
+                  <div class="text-300 bold color-neutral-800">
+                    Available in
+                  </div>
+                </div>
+                <div
+                  class="w-layout-grid grid-2-columns footer-country-available-service"
+                >
+                  <div
+                    id="w-node-_9566e1e2-4862-c17d-08fa-fb50b8a31b9b-b8a31b43"
+                    class="flex-horizontal align-center"
+                  >
+                    <div class="mg-right-18px">
+                      <div class="inner-container _78px width-100 responsive">
+                        <img
+                          src="https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/61fdd35beba8182905a8fd1c_icon-1-service-available-delivery-template.svg"
+                          loading="eager"
+                          alt="San Francisco - Deliver X Webflow Template"
+                          class="image border-radius-24px responsive"
+                        />
+                      </div>
+                    </div>
+                    <div class="heading-h5-size country-available">
+                      San Francisco, CA
+                    </div>
+                  </div>
+                  <div
+                    id="w-node-_9566e1e2-4862-c17d-08fa-fb50b8a31ba1-b8a31b43"
+                    class="flex-horizontal align-center"
+                  >
+                    <div class="mg-right-18px">
+                      <div class="inner-container _78px width-100 responsive">
+                        <img
+                          src="https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/61fdd35beba818a369a8fd1e_icon-2-service-available-delivery-template.svg"
+                          loading="eager"
+                          alt="New York - Deliver X Webflow Template"
+                          class="image border-radius-24px responsive"
+                        />
+                      </div>
+                    </div>
+                    <div class="heading-h5-size country-available">
+                      New York, NY
+                    </div>
+                  </div>
+                  <div
+                    id="w-node-_9566e1e2-4862-c17d-08fa-fb50b8a31ba7-b8a31b43"
+                    class="flex-horizontal align-center"
+                  >
+                    <div class="mg-right-18px">
+                      <div class="inner-container _78px width-100 responsive">
+                        <img
+                          src="https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/61fdd35b08dbc7d63e9b3811_icon-3-service-available-delivery-template.svg"
+                          loading="eager"
+                          alt="Los Angeles - Deliver X Webflow Template"
+                          class="image border-radius-24px responsive"
+                        />
+                      </div>
+                    </div>
+                    <div class="heading-h5-size country-available">
+                      Los Angeles, CA
+                    </div>
+                  </div>
+                  <div
+                    id="w-node-_9566e1e2-4862-c17d-08fa-fb50b8a31bad-b8a31b43"
+                    class="flex-horizontal align-center"
+                  >
+                    <div class="mg-right-18px">
+                      <div class="inner-container _78px width-100 responsive">
+                        <img
+                          src="https://assets-global.website-files.com/61fd4a65725a5325e9bb25c2/61fdd35b80572eda7e5d0c79_icon-4-service-available-delivery-template.svg"
+                          loading="eager"
+                          alt="Seattle - Deliver X Webflow Template"
+                          class="image border-radius-24px responsive"
+                        />
+                      </div>
+                    </div>
+                    <div class="heading-h5-size country-available">
+                      Seattle, WA
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="9566e1e2-4862-c17d-08fa-fb50b8a31bb3" class="footer-bottom">
+            <p class="mg-bottom-0">
+              Copyright © Deliver X | Designed by
+              <a href="#" target="_blank" class="text-decoration-none"
+                >BRIX Templates</a
+              >
+              - Powered by
+              <a href="#" target="_blank" class="text-decoration-none"
+                >Webflow</a
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/gsap.js"></script>
   </body>
 </html>
